@@ -18,16 +18,8 @@ namespace ConsoleApp1
                 fact *= i;
             }
             var a = factorial_Recursion(5);
-
             string path = "UDDDUDUU";
 
-            //48=>5
-            var r = catAndMouse(22, 75, 70);
-            //26=>27
-            var s = catAndMouse(33, 86, 59);
-
-            Console.WriteLine(r);
-            Console.WriteLine(s);
         }
 
         static string catAndMouse(int x, int y, int z)
@@ -58,7 +50,6 @@ namespace ConsoleApp1
             }
             return maxSpent;
         }
-
 
         public static int countingValleys(int steps, string path)
         {
